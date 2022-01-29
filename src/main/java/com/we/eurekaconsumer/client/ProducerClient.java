@@ -8,4 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface ProducerClient {
     @GetMapping("/time")
     String getTime();
+    
+     
 }
